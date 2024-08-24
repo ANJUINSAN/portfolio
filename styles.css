@@ -1,0 +1,264 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    /* background-color: #2f2f2f; */
+    /* color: #fff; */
+}
+
+/* Header Styles */
+header {
+    background-color: #3a3a3a;
+    padding: 20px 40px;
+    
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.nav-container {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #fff;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    margin-left: 30px;
+    gap: 20px;
+}
+
+.nav-links li {
+    display: inline-block;
+}
+
+.nav-links li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+    transition: color 0.3s;
+}
+
+.nav-links li a:hover {
+    color: #ccc;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Header Buttons */
+.header-buttons {
+    display: flex;
+    align-items: center;
+    align-self: flex-end;
+   
+    /* justify-content: end; */
+    gap: 20px;
+}
+
+.header-buttons a {
+    text-decoration: none;
+    color: #fff;
+    filter: invert(1);
+    transition: transform 0.3s;
+}
+
+.header-buttons img {
+    width: 34px;
+    height: 34px;
+    
+    
+}
+
+.header-buttons .btn {
+    padding: 10px 20px;
+    background-color: #3e4144;
+    color: #fff;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+.header-buttons .btn:hover {
+    background-color: #5a6268;
+}
+
+.header-buttons a:hover {
+    transform: scale(1.1);
+}
+
+#hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    /* height: 80vh; */
+    /* background-color: #333; */
+}
+
+.hero-content {
+    display: flex;
+    align-items: center;
+}
+
+.hero-content img {
+    border-radius: 80%;
+    width: 350px;
+    height: 350px;
+    margin-right: 70px;
+}
+
+.intro-text h1 {
+    font-size: 36px;
+    margin: 0;
+}
+
+.intro-text p {
+    font-size: 20px;
+    margin: 10px 0 20px;
+}
+
+.btn {
+    padding: 10px 20px;
+    background-color: #6c757d;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+
+.btn:hover {
+    background-color: #5a6268;
+}
+
+#about {
+    background-color: #f4f4f4; /* Light gray background */
+    padding: 20px; /* Space around the content */
+    margin: 20px auto; /* Center the section */
+    max-width: 80vw; /* Limit the width */
+    margin-bottom: 100px;
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+#about h2 {
+    color: #333; /* Dark gray text color */
+    font-size: 2em; /* Large heading */
+    margin-bottom: 10px; /* Space below the heading */
+    text-align: center; /* Center the heading */
+}
+
+#about p {
+    color: #555; /* Medium gray text color */
+    line-height: 1.6; /* Spacing between lines */
+    font-size: 1.1em; /* Slightly larger text */
+    text-align: justify; /* Justify text for neat alignment */
+}
+
+#contact {
+    background-color: #f9f9f9; /* Light background color */
+    padding: 40px; /* Spacing around the content */
+    border-radius: 8px; /* Rounded corners */
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+    margin: 0 auto; /* Center the section horizontally */
+    background-color: #2f2f2f;
+    color: #fff; 
+    /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); Subtle shadow */
+}
+
+#contact h2 {
+    font-size: 2em; /* Larger font size for the heading */
+    margin-bottom: 20px; /* Space below the heading */
+    /* color: #333; Dark text color */
+}
+
+#contact p {
+    font-size: 1.2em; /* Slightly larger text size */
+   
+    margin: 10px 0; 
+}
+
+#contact a {
+    color: #007BFF; /* Blue color for links */
+    text-decoration: none; /* Remove underline */
+}
+
+#contact a:hover {
+    text-decoration: underline; /* Add underline on hover */
+}
+
+
+#projects a {
+    display: grid; /* Use grid layout */
+    grid-template-columns: 1fr;/* Responsive grid */
+    gap: 20px; /* Space between the boxes */
+   color: #2f2f2f;
+ width: 80vw;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    text-decoration: none;
+}
+
+.pro{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+    
+}
+.pro h2{
+    font-size: 3em; /* Larger font size for the heading */
+    margin-bottom: 30px;
+}
+.project {
+    background-color: #fff;
+    border: 1px solid #ddd; /* Border around each project box */
+    border-radius: 8px; /* Rounded corners */
+    padding: 20px;
+    color: #2f2f2f;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    transition: transform 0.2s ease-in-out; /* Smooth transform on hover */
+}
+
+.project:hover {
+    transform: translateY(-5px); /* Lift effect on hover */
+}
+
+.project h3 {
+    font-size: 1.5em;
+   
+    margin-bottom: 10px;
+}
+
+.project p {
+    font-size: 1.1em;
+    color: #555;
+    margin: 0px;
+    /* margin-bottom: 10px; */
+}
+
+.project ul {
+    margin-left: 20px;
+}
+
+.project ul li {
+    margin-bottom: 5px;
+    font-size: 1em;
+    color: #444;
+}
