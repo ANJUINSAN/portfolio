@@ -13,8 +13,9 @@
                 <div class="logo">ANJU RANI</div>
                 <ul class="nav-links">
                     <li><a href="index.html">Home</a></li>
-                    
                     <li><a href="projects.html">Projects</a></li>
+                    <li><a href="badge.html">Badges</a></li>
+                    <li><a href="certificates.html">Certificates</a></li>
                 </ul>
             </div>
             <div class="header-buttons">
@@ -27,7 +28,10 @@
                         <img src="leetcode.png" alt="Leetcode">
                     </a>
                 </a>
-                <a href="resume.pdf" target="_blank" class="btn">Resume</a>
+                <a href="https://www.geeksforgeeks.org/user/drbalveer4pnq//" target="_blank" class="social-link" title="Visit my Leetcode profile">
+                    <img src="geek logo.png" alt="GeekforGeeks Profile" class="social-icon">
+                </a>
+                <!-- <a href="resume.pdf" target="_blank" class="btn">Resume</a> -->
             </div>
         </nav>
     </header>
@@ -37,53 +41,129 @@
         <h2>Projects</h2>
         </div>
         <section id="projects">
+            
+                <!-- Project 1: Ecommerce Shopify Clothing Website -->
                 <a href="https://github.com/ANJUINSAN/react-App" target="_blank" class="project">
                     <h3>Frontend Web Development Project: Ecommerce Shopify Clothing Website</h3>
-                    <p><strong>Tech Stack:</strong> ReactJS, CSS, HTML, JavaScript</p>
+                    <p><strong>Project Overview:</strong> Designed and developed a responsive and user-friendly ecommerce website for a Shopify-style clothing store. The site includes product displays, order lists, and a payment integration system.</p>
+                    <p><strong>Tech Stack:</strong> ReactJS, CSS, HTML, JavaScript, Bootstrap</p>
+                    <p><strong>Key Features:</strong></p>
                     <ul>
-                        <li>Designed and developed a seamless, user-friendly interface with efficient routing for easy navigation.</li>
+                        <li>Seamless navigation with efficient routing for smooth user experience.</li>
+                        <li>Order list management with real-time updates and integrated payment method functionality.</li>
+                        <li>Responsive design using Bootstrap for mobile and desktop compatibility.</li>
                     </ul>
+                    <p><strong>Challenges Faced:</strong></p>
+                    <ul>
+                        <li>Integrating the dynamic order list page with the payment gateway.</li>
+                        <li>Ensuring proper payment security and transaction management during development.</li>
+                    </ul>
+                    <p><strong>Future Improvements:</strong> Potential for integrating inventory management and advanced user authentication features.</p>
                 </a>
-    
+            
+                <!-- Project 2: Our Secret Diary Website -->
                 <a href="https://github.com/ANJUINSAN/diary-website" target="_blank" class="project">
                     <h3>Full Stack Web Development Project: Our Secret Diary Website</h3>
+                    <p><strong>Project Overview:</strong> A full-stack web application based on the popular Kdrama "Our Secret," designed for secure, private journaling. Users can create, edit, and delete diary entries with enhanced privacy using JWT authentication.</p>
                     <p><strong>Tech Stack:</strong> ReactJS, Express JS, NodeJS, MongoDB</p>
+                    <p><strong>Key Features:</strong></p>
                     <ul>
-                        <li>Ensures data security by using JWT for authentication and argon2 for secure password hashing.</li>
-                        <li>User data is isolated so each user only has access to their own diary entries, ensuring privacy.</li>
+                        <li>Secure user authentication using JWT for login and session management.</li>
+                        <li>Private user diaries where only the user has access to their own entries.</li>
+                        <li>Password hashing using argon2 to ensure data security.</li>
                     </ul>
+                    <p><strong>Challenges Faced:</strong></p>
+                    <ul>
+                        <li>Implementing JWT authentication and handling session timeouts.</li>
+                        <li>Ensuring privacy by isolating user data within the database.</li>
+                    </ul>
+                    <p><strong>Future Improvements:</strong> Future features may include adding multimedia support for diary entries and integrating a search functionality.</p>
                 </a>
-    
+            
+                <!-- Project 3: Niche Community Chat App -->
                 <a href="https://github.com/ANJUINSAN/chat-app-" target="_blank" class="project">
                     <h3>Android App Development Project: Niche Community Chat App</h3>
+                    <p><strong>Project Overview:</strong> A chat application developed for niche communities, focusing on real-time messaging, group chats, and file sharing, built with Firebase for real-time database and cloud storage.</p>
                     <p><strong>Tech Stack:</strong> Firebase, Android Studio</p>
+                    <p><strong>Key Features:</strong></p>
                     <ul>
-                        <li>Providing a smooth user experience with responsive design, real-time messaging, and cloud storage using Firebase.</li>
+                        <li>Real-time messaging and chat functionality powered by Firebase.</li>
+                        <li>Cloud storage integration for messages integrity and reliability.</li>
                     </ul>
+                    <p><strong>Challenges Faced:</strong></p>
+                    <ul>
+                        <li>Ensuring real-time messaging with low latency.</li>
+                        <li>Managing user authentication and secure data transmission.</li>
+                    </ul>
+                    <p><strong>Future Improvements:</strong> Plan to add voice messaging and push notifications for better user engagement.</p>
                 </a>
-    
+            
+                <!-- Project 4: Hospital System Network Management -->
                 <a href="https://github.com/ANJUINSAN/network-project" target="_blank" class="project">
                     <h3>Networking Project: Hospital System Network Management</h3>
+                    <p><strong>Project Overview:</strong> Designed a hospital network system to manage hospital devices, patient data, and internal communication using VLANs for segmentation and various routing protocols like EIGRP and OSPF.</p>
                     <p><strong>Tech Stack:</strong> Cisco Packet Tracer</p>
+                    <p><strong>Key Features:</strong></p>
                     <ul>
-                        <li>Utilized VLANs for network segmentation, SSH for secure access, and EIGRP, RIP, and OSPF for optimized routing, supporting both wireless and wired connectivity.</li>
+                        <li>Used VLANs for efficient network segmentation and data isolation.</li>
+                        <li>Configuring EIGRP, RIP, and OSPF for optimized routing across multiple hospital departments.</li>
+                        <li>Secure access via SSH for network administrators.</li>
                     </ul>
-                </a>
-    
-                <a href="https://github.com/ANJUINSAN/machine-learning-project" target="_blank" class="project">
-                    <h3>Machine Learning Project: Email/SMS Spam Classifier</h3>
-                    <p><strong>Tech Stack:</strong> Jupyter Notebook, PyCharm</p>
+                    <p><strong>Challenges Faced:</strong></p>
                     <ul>
-                        <li>Used a Naive Bayes classifier to train on a labeled dataset for spam identification.</li>
+                        <li>Ensuring proper segmentation and secure access control.</li>
+                        <li>Optimizing routing protocols for a large-scale network.</li>
                     </ul>
+                    <p><strong>Future Improvements:</strong> Future work could include expanding the network design to support telemedicine and integrating IoT devices for smart hospital solutions.</p>
                 </a>
+            
+                <!-- Project 5: Email/SMS Spam Classifier -->
+                <a href="https://github.com/ANJUINSAN/spam-classifier-streamlit" target="_blank" class="project">
+                    <h3>Machine Learning Project: Email/SMS Spam Classifier </h3>
+                    <p><strong>Project Overview:</strong> Developed a spam classifier using a Naive Bayes algorithm, and integrated it with a simple, interactive web interface built using Streamlit. The interface allows users to input text messages and receive real-time predictions on whether the message is spam or not.</p>
+                    <p><strong>Tech Stack:</strong> Python, Streamlit, Scikit-learn, Jupyter Notebook</p>
+                    <p><strong>Key Features:</strong></p>
+                    <ul>
+                        <li>Streamlit-based user interface for real-time message input and prediction.</li>
+                        <li>Model evaluation using accuracy metrics.</li>
+                        <li>Interactive text input box for users to test the classifier with their own data.</li>
+                        <li>Used a Naive Bayes classifier from Scikit-learn to predict spam or not.</li>
+                    </ul>
+                    <p><strong>Challenges Faced:</strong></p>
+                    <ul>
+                        <li>Integrating the machine learning model with the Streamlit interface to ensure seamless interaction.</li>
+                        <li>Handling model performance for large text inputs in real-time.</li>
+                    </ul>
+                    <p><strong>Future Improvements:</strong> Plan to add a visualization of the spam classification process and integrate other algorithms like SVM or Random Forest for comparison.</p>
+                </a>
+                
+            
+                <!-- Project 6: Photo Sketch App -->
                 <a href="https://github.com/ANJUINSAN/photoSketch-AI" target="_blank" class="project">
-                    <h3>Python Project: Photo Sketch App</h3>
-                    <p><strong>Tech Stack:</strong> Jupyter Notebook, PyCharm</p>
+                    <h3>Python Project: Photo Sketch App </h3>
+                    <p><strong>Project Overview:</strong> Developed a Python application that converts any given photo into a pencil sketch using edge detection techniques and image processing algorithms. Built with **Streamlit** to provide a simple, interactive web interface for users to upload their photos, generate pencil sketches, and download the result.</p>
+                    <p><strong>Tech Stack:</strong> Python, Streamlit, OpenCV, Jupyter Notebook, PyCharm</p>
+                    
+                    <p><strong>Key Features:</strong></p>
                     <ul>
-                        <li>Developed an application that converts photos into pencil sketches using edge detection and image processing techniques.</li>
+                        <li>Interactive **Streamlit** interface for easy photo upload and sketch generation.</li>
+                        <li>Edge detection algorithms (such as Canny and Laplacian) to generate realistic pencil sketches from photos.</li>
+                        <li>Customizable sketching filters allowing users to modify the final output.</li>
+                        <li>Use of image processing techniques like Gaussian blur to enhance the quality of the sketch.</li>
+                        <li>**Download option** to save the generated sketch image to the user's local system.</li>
                     </ul>
+                    
+                    <p><strong>Challenges Faced:</strong></p>
+                    <ul>
+                        <li>Fine-tuning the image processing algorithms to achieve a more realistic sketch effect.</li>
+                        <li>Ensuring compatibility with various image formats and sizes while maintaining processing speed.</li>
+                    </ul>
+                    
+                    <p><strong>Future Improvements:</strong> Implementing machine learning models to predict the style of sketches based on the photo's content and adding more advanced filtering options like colorization of sketches.</p>
                 </a>
+                
+            
+            
           
         </section>
     </main>

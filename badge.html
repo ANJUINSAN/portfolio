@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Badges Page</title>
+    <link rel="stylesheet" href="styles.css">
+
+    <style>
+        
+        .container {
+            width: 80%;
+            max-width: 1200px;
+            margin: 50px auto;
+            
+        }
+
+        h1 {
+            margin-bottom: 40px;
+            font-size: 36px;
+            color: #333;
+            text-align: center;
+        }
+
+        .badge-grid {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 30px;
+        }
+
+        .badge {
+            background-color: #fff;
+            border: 2px solid #ddd;
+            border-radius: 10px;
+            padding: 20px;
+            width: 400px;
+            text-align: center;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            transition: transform 0.2s;
+        }
+
+        .badge:hover {
+            transform: scale(1.05);
+            box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+        }
+
+        .badge img {
+            max-width: 150px;
+            height: auto;
+         
+        }
+
+        .badge h3 {
+            font-size: 20px;
+            color: #333;
+            margin-bottom: 10px;
+        }
+
+        .badge p {
+            color: #666;
+            font-size: 16px;
+        }
+
+        .badge .badge-link {
+            display: inline-block;
+            margin-top: 15px;
+            padding: 10px 20px;
+            color: #fff;
+            background-color: #007bff;
+            border-radius: 5px;
+            text-decoration: none;
+            font-size: 14px;
+        }
+
+        .badge .badge-link:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="nav-container">
+                <div class="logo">ANJU RANI</div>
+                <ul class="nav-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="projects.html">Projects</a></li>
+                    <li><a href="badge.html">Badges</a></li>
+                    <li><a href="certificates.html">Certificates</a></li>
+
+                 
+                </ul>
+            </div>
+            <div class="header-buttons">
+                <a href="https://www.linkedin.com" target="_blank">
+                    <img src="linkedin.png" alt="LinkedIn">
+                </a>
+                <a href="https://github.com/ANJUINSAN" target="_blank">
+                    <img src="github.png" alt="GitHub">
+                </a>
+                <a href="https://leetcode.com/u/AnjuRani/" target="_blank">
+                    <img src="leetcode.png" alt="Leetcode">
+                </a>
+                <a href="https://www.geeksforgeeks.org/user/drbalveer4pnq//" target="_blank" class="social-link" title="Visit my Leetcode profile">
+                    <img src="geek logo.png" alt="GeekforGeeks Profile" class="social-icon">
+                </a>
+                <!-- <a href="resume.pdf" target="_blank" class="btn">Resume</a> -->
+            </div>
+        </nav>
+    </header>
+    <div class="container">
+        
+        <h1>My Badges</h1>
+        <div class="badge-grid">
+            <!-- Badge 1 -->
+            <div class="badge">
+                <img src="badge0.jpeg" alt="Badge 1">
+                <h3>DSA</h3>
+                <p>Completed course for Stack and Queue by Love Babbar</p>
+              
+            </div>
+
+            <!-- Badge 2 -->
+            <div class="badge">
+                <img src="badge1.jpeg" alt="Badge 2">
+                <h3>DSA</h3>
+                <p>Completed course for Binary Trees by Love Babbar</p>
+              
+            </div>
+
+            <!-- Badge 3 -->
+            <div class="badge">
+                <img src="MY BADGE.png" alt="Badge 3">
+                <h3>Leetcode</h3>
+                <p>50 days badge 2024</p>
+            </div>
+
+    
+        </div>
+    </div>
+</body>
+</html>
